@@ -1,0 +1,190 @@
+body {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.khung {
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  background: linear-gradient(160deg, #fbabcc, #c1f6fd);
+}
+.content p {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+.khung {
+  margin-top: 150px;
+}
+.chuyengia {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin-left: 4%;
+}
+.chuyengia h3 {
+  font-size: 22px;
+  color: #4caf50;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.chuyengia p {
+  font-size: 16px;
+  color: #555;
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.therapist-images {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.therapist-images div {
+  text-align: center;
+}
+.therapist-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.therapist-images img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.service {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+}
+
+.service img {
+  width: 100px;
+  height: 100px;
+}
+
+.service h3 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.service p {
+  font-size: 19px;
+  color: #555;
+}
+
+/* Thiết lập dạng cột khi màn hình nhỏ hơn 480px */
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .head1,
+  .head2,
+  .head3,
+  .head4,
+  .login,
+  .register {
+    display: none;
+  }
+  .logo {
+    margin-top: 4px;
+    width: 120px;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  #menu-toggle-checkbox:checked + .menu-toggle + .dropdown-menu {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  .content {
+    flex-direction: column;
+  }
+  .container .img1,
+  .img2,
+  .img3 {
+    display: none;
+  }
+  .content3 button {
+    width: 35%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .content6-container .img4 {
+    display: none;
+  }
+  .grid-container .grid-item {
+    display: none;
+  }
+  .mid-content1 {
+    height: 135vh;
+  }
+}
+@media (max-width: 480px) {
+  .content7-button {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .mid-content3 {
+    width: 100%;
+  }
+  .content8-description {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .chat-container {
+    width: 84%;
+  }
+}
+@media (max-width: 480px) {
+  .faq-container {
+    width: 91%;
+  }
+}
+@media (max-width: 480px) {
+  .footer-links {
+    display: none;
+  }
+  .footer-logo {
+    margin-top: 20px;
+    width: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .fixed-buttons {
+    margin-right: 20px;
+  }
+}

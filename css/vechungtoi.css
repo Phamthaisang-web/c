@@ -1,0 +1,181 @@
+* {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  overflow-x: hidden;
+}
+.container {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  font-size: 25px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.nen {
+  background-color: #4db3d6;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 100px;
+}
+.nen1 {
+  margin-top: -40px;
+  background-color: #4db3d6;
+
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.container1 {
+  text-align: center;
+}
+.container1 button {
+  margin-left: 10px;
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: none;
+}
+.container1 button a {
+  text-decoration: none;
+  color: black;
+}
+.container2 {
+  background-color: white;
+  padding: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+}
+.container2 {
+  background: repeating-linear-gradient(0deg, transparent, #ffffff);
+  color: white;
+  background-color: #4e97e7;
+  opacity: 0.85;
+}
+.container2 p {
+  font-size: 20px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container2 h2 {
+  font-size: 40px;
+}
+
+.container3 {
+  background-color: white;
+  padding: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 40px;
+
+  border-radius: 70px;
+}
+
+.container3 p {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.container3 h2 {
+  text-align: center;
+}
+.container3 .anh1 {
+  display: flex;
+  justify-content: space-between;
+}
+.container3 .anh1 .anh2 {
+  width: 320px;
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.anh1 a {
+  text-decoration: none;
+  color: rgb(65, 161, 194);
+}
+.container3 .anh1 .a {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.container3 .anh1 .title {
+  font-size: 25px;
+  color: rgb(24, 105, 132);
+  margin-bottom: 15px;
+}
+.container3 h2 {
+  font-size: 40px;
+}
+.container3 > p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.container3 > img {
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.container4 {
+  background-color: white;
+  padding: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 40px;
+  padding: 100px 0;
+  border-radius: 70px;
+  text-align: center;
+}
+.container4 button {
+  padding: 10px 50px;
+  font-size: 20px;
+  background-color: #4db3d6;
+  border-radius: 30px;
+}
+.container4 a {
+  text-decoration: none;
+  color: white;
+}
+.container4 p {
+  font-size: 40px;
+}
+.container4 {
+  background: repeating-linear-gradient(0deg, transparent, #ffffff);
+  color: white;
+  background-color: #4e97e7;
+  opacity: 0.85;
+}
+.container5 {
+  background-color: white;
+
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-radius: 70px;
+  text-align: center;
+}
+.container5 h2 {
+  font-size: 40px;
+}
+.container5 p {
+  width: 600px;
+  font-size: 20px;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.container5 .anh {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}

@@ -1,0 +1,128 @@
+body {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  overflow-x: hidden;
+}
+.faq-container {
+  width: 95%;
+  margin-left: 1.25%;
+  margin-top: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 35px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+.faq-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.question {
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #5a87f2;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.faq-item[open] .question {
+  background-color: #72efa0;
+}
+.answer {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 480px) {
+  .head1,
+  .head2,
+  .head3,
+  .head4,
+  .login,
+  .register {
+    display: none;
+  }
+  .logo {
+    margin-top: 4px;
+    width: 120px;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  #menu-toggle-checkbox:checked + .menu-toggle + .dropdown-menu {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  .content {
+    flex-direction: column;
+  }
+  .container .img1,
+  .img2,
+  .img3 {
+    display: none;
+  }
+  .content3 button {
+    width: 35%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .content6-container .img4 {
+    display: none;
+  }
+  .grid-container .grid-item {
+    display: none;
+  }
+  .mid-content1 {
+    height: 135vh;
+  }
+}
+@media (max-width: 480px) {
+  .content7-button {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .mid-content3 {
+    width: 100%;
+  }
+  .content8-description {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .chat-container {
+    width: 84%;
+  }
+}
+@media (max-width: 480px) {
+  .faq-container {
+    width: 91%;
+  }
+}
+@media (max-width: 480px) {
+  .footer-links {
+    display: none;
+  }
+  .footer-logo {
+    margin-top: 20px;
+    width: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .fixed-buttons {
+    margin-right: 60px;
+  }
+}
